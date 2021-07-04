@@ -1003,17 +1003,17 @@ void insurancePolicy()
 			{
 			case 1:
 			{
-				cout << "\n Car\n Policy type : ";
+				cout << "Car\n Policy type : ";
 				switch (policy_type)
 				{
 				case 1: {
 					monthly_cost = monthly_cost * 1.8;
-					cout << "\n Full, Comprehensive Cover";
+					cout << "Full, Comprehensive Cover";
 					break;
 				}
 				case 2: {
 					monthly_cost = monthly_cost * 1.7;
-					cout << "\n 3rd Party Fire and Theft";
+					cout << "3rd Party Fire and Theft";
 					break;
 				}
 				default: cout << "\n Error\n"; return;
@@ -1023,18 +1023,18 @@ void insurancePolicy()
 			}
 			case 2:
 			{
-				cout << "\n Motorcycle\n Policy type : ";
+				cout << "Motorcycle\n Policy type : ";
 
 				switch (policy_type)
 				{
 				case 1: {
 					monthly_cost = monthly_cost * 1.2;
-					cout << "\n Full, Comprehensive Cover";
+					cout << "Full, Comprehensive Cover";
 					break;
 				}
 				case 2: {
 					monthly_cost = monthly_cost * 1.1;
-					cout << "\n 3rd Party Fire and Theft";
+					cout << "3rd Party Fire and Theft";
 					break;
 				}
 				default: cout << "\n Error\n"; return;
